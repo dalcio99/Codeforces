@@ -115,7 +115,7 @@ int main()
     }
     else
     {
-        lli MMAAAAX = *max_element(solutions.begin(), solutions.end());
-        cout << MMAAAAX;
+        lli max_sol = *max_element(solutions.begin(), solutions.end());
+        cout << max_sol;
     }
 }
